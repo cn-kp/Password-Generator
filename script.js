@@ -20,10 +20,20 @@ function writePassword() {
 function generatePassword() {
   var randomPassword = ""
   let charset_final = charset_initial;
-  var password_length = prompt("enter your password length");
+  var password_length = prompt("enter your password length between 8-128");
   
-  if (password_length === 0 ) {return ("please enter a value greater than 0")};
+  /*while (password_length < 8 || password_length > 128){
+    password_length = prompt("enter your password length between 8-128");
+  }*/ 
 
+  // alerts user if the input value is not between 8 and 128
+  if (password_length < 8 || password_length > 128){
+    alert("please enter a value between 8-128 characters") 
+    // will rerun function is above is not meet
+  return generatePassword();
+
+  }
+  //prompts user if they would like the following character sets
   var AddLowercase = confirm("would you like the password to contain lowercases")
   if (AddLowercase == true) {
   charset_final = charset_initial + charset_lowercase
@@ -43,6 +53,7 @@ function generatePassword() {
   if (AddSymbol == true) {
     charset_final = charset_final + charset_special
   }
+  //randomly selects from the final charset string up to the desired length of password to form the product//
   for (i=0;i<password_length;i++){
     var randomNumber = Math.floor(Math.random() * charset_final.length);
     randomPassword += charset_final[randomNumber]
