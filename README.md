@@ -18,3 +18,10 @@ When "Generate Password" is selected again, the program will run again and gener
 The generated password will also appear in the console and shows each charcter that is selected during the randomising phase.
 
 ## Deployment
+
+This password generator is deloped on GitHub and is avaliable using ( https://cn-kp.github.io/homework-week3-passwordGenerator/ )
+
+A preview of the site is attached below; 
+ ![passwordGeneratorPreview](./assets/images/pasword_generator)
+
+
