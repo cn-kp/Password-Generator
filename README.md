@@ -22,6 +22,6 @@ The generated password will also appear in the console and shows each charcter t
 This password generator is deloped on GitHub and is avaliable using ( https://cn-kp.github.io/homework-week3-passwordGenerator/ )
 
 A preview of the site is attached below; 
- ![passwordGeneratorPreview](./assets/images/pasword_generator)
+ ![passwordGeneratorPreview](./assets/images/password_generator.PNG)
 
 
