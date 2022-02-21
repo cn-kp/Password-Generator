@@ -1,4 +1,4 @@
-# Homework Week 3: Creating a Random Password Generator
+# Creating a Random Password Generator
 
 This weeks homework I have created a random password generator, that allows for the user to input the desired length and character sets used to generate this password. 
 
@@ -19,7 +19,7 @@ The generated password will also appear in the console and shows each charcter t
 
 ## Deployment
 
-This password generator is deloped on GitHub and is avaliable using ( https://cn-kp.github.io/homework-week3-passwordGenerator/ )
+This password generator is deloped on GitHub and is avaliable using (https://cn-kp.github.io/Password-Generator/)
 
 A preview of the site is attached below; 
  ![passwordGeneratorPreview](./assets/images/password_generator.PNG)
