@@ -2,7 +2,7 @@
 
 ## Deployment
 - [GitHub Repository](https://github.com/cn-kp/Password-Generator)
-- [GitHub Deployed Link](https://cn-kp.github.io/Passowrd-Generator/)
+- [GitHub Deployed Link](https://cn-kp.github.io/Password-Generator/)
 
 ## Description
 
