@@ -1,7 +1,7 @@
 # Random Password Generator
 
 ## Deployment
-- [GitHub Repository](ttps://github.com/cn-kp/Password-Generator)
+- [GitHub Repository](https://github.com/cn-kp/Password-Generator)
 - [GitHub Deployed Link](https://cn-kp.github.io/Passowrd-Generator/)
 
 ## Description
